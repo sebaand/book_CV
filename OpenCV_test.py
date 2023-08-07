@@ -3,7 +3,7 @@ import mediapipe as mp
 import pytesseract
 
 # Initialize Tesseract-OCR
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update this path
+pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract'  # Update this path
 
 # Create a VideoCapture object
 cap = cv2.VideoCapture(0)
